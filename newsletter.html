@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Newsletter - Sebana Servizi</title>
+  <meta name="description" content="Iscriviti alla newsletter di Sebana Servizi per rimanere aggiornato sulle ultime novità normative e servizi.">
+  <meta name="keywords" content="newsletter, aggiornamenti, normative, condomini">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Newsletter - Sebana Servizi">
+  <meta property="og:description" content="Rimani aggiornato sulle ultime novità">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sebanaservizi.it/newsletter">
+  
+  <!-- Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://formspree.io; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://formspree.io;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/LOGO.png" alt="Sebana Servizi Logo" width="150" height="50">
+          </a>
+        </div>
+        
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servizi.html">Servizi</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+            <li><a href="newsletter.html" class="active">Newsletter</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-contact">
+          <a href="tel:+3909321889049" class="contact-link phone">0932 1889049</a>
+          <a href="mailto:info@sebanaservizi.it" class="contact-link email">info@sebanaservizi.it</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="page-hero newsletter-hero">
+      <div class="container">
+        <h1>Iscriviti alla nostra newsletter!</h1>
+        <p class="hero-subtitle">Rimani aggiornato sulle ultime novità!</p>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <div class="newsletter-intro">
+            <div class="newsletter-icon">
+              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <h2>Perché iscriversi?</h2>
+            <p>Sebana Servizi è una società specializzata in soluzioni multiservizio con l'obiettivo di aiutare amministratori e professionisti a garantire la sicurezza dei loro immobili secondo le disposizioni di legge.</p>
+            
+            <div class="newsletter-benefits">
+              <h3>Cosa riceverai:</h3>
+              <ul>
+                <li>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Aggiornamenti sulle normative più recenti</span>
+                </li>
+                <li>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Novità sui servizi offerti</span>
+                </li>
+                <li>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Consigli pratici per la gestione condominiale</span>
+                </li>
+                <li>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Approfondimenti su sicurezza e conformità</span>
+                </li>
+                <li>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Offerte esclusive per gli iscritti</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="newsletter-form-wrapper">
+            <h2>Iscriviti Ora</h2>
+            <p>Compila il form per ricevere la nostra newsletter direttamente nella tua casella email.</p>
+            
+            <form id="newsletter-form" class="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <input type="hidden" name="_subject" value="Nuova iscrizione alla newsletter">
+              
+              <div class="form-group">
+                <label for="name">Nome e Cognome <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required aria-required="true" placeholder="Mario Rossi">
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required aria-required="true" placeholder="mario.rossi@example.com">
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Azienda / Condominio</label>
+                <input type="text" id="company" name="company" placeholder="Nome del condominio o azienda">
+              </div>
+              
+              <div class="form-group">
+                <label for="role">Ruolo</label>
+                <select id="role" name="role">
+                  <option value="">Seleziona il tuo ruolo</option>
+                  <option value="amministratore">Amministratore di Condominio</option>
+                  <option value="condomino">Condomino</option>
+                  <option value="professionista">Professionista</option>
+                  <option value="altro">Altro</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="privacy" required aria-required="true">
+                  <span>Accetto la <a href="/privacy" target="_blank">Privacy Policy</a> e autorizzo il trattamento dei miei dati per l'invio della newsletter <span class="required">*</span></span>
+                </label>
+              </div>
+              
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" name="marketing">
+                  <span>Acconsento a ricevere comunicazioni commerciali e promozionali</span>
+                </label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-large">Iscriviti alla Newsletter</button>
+              
+              <div class="form-status" role="status" aria-live="polite"></div>
+            </form>
+            
+            <div class="newsletter-privacy-note">
+              <p><small>I tuoi dati sono al sicuro. Non condivideremo mai le tue informazioni con terze parti. Puoi disiscriverti in qualsiasi momento.</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="newsletter-info-section">
+          <h2>Informazioni</h2>
+          <div class="info-grid">
+            <div class="info-card">
+              <h3>Frequenza</h3>
+              <p>Riceverai la nostra newsletter con cadenza mensile, con aggiornamenti importanti inviati quando necessario.</p>
+            </div>
+            
+            <div class="info-card">
+              <h3>Privacy</h3>
+              <p>I tuoi dati personali sono protetti secondo il GDPR. Utilizziamo le tue informazioni solo per inviarti la newsletter.</p>
+            </div>
+            
+            <div class="info-card">
+              <h3>Disiscrizione</h3>
+              <p>Puoi disiscriverti in qualsiasi momento cliccando sul link presente in ogni email che ricevi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section company-info">
+          <img src="images/LOGO.png" alt="Sebana Servizi Logo" class="footer-logo" width="200" height="67">
+          <p class="company-description">Sebana Servizi è una società specializzata in soluzioni multiservizio con l'obiettivo di aiutare amministratori e professionisti a garantire la sicurezza dei loro immobili secondo le disposizioni di legge.</p>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h3>Link Utili</h3>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="servizi.html">SERVIZI</a></li>
+            <li><a href="contatti.html">CONTATTI</a></li>
+            <li><a href="newsletter.html">NEWSLETTER</a></li>
+            <li><a href="privacy-policy.html">PRIVACY POLICY</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-info">
+          <h3>Informazioni</h3>
+          <ul>
+            <li><a href="tel:+3909321889049"><span class="icon">📞</span> 0932 1889049</a></li>
+            <li><a href="mailto:info@sebanaservizi.it"><span class="icon">✉️</span> info@sebanaservizi.it</a></li>
+            <li><span class="icon">📍</span> Via Guglielmo Nicastro, 35/A - Ragusa (RG)</li>
+            <li><a href="https://www.linkedin.com/company/sebana-servizi/" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 4px;">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-data">
+          <h3>Dati di Fatturazione</h3>
+          <ul>
+            <li><strong>Ragione Sociale:</strong> Sebana Servizi SRLS</li>
+            <li><strong>Sede Legale:</strong> Via Guglielmo Nicastro, 35/A - 97100 Ragusa (RG)</li>
+            <li><strong>Partita IVA:</strong> 01832400889</li>
+            <li><strong>CU:</strong> KRRH6B9</li>
+            <li><strong>PEC:</strong> sebanaservizi@pec.it</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Sebana Servizi. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

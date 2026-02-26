@@ -1,0 +1,29 @@
+{
+  "name": "sebana-servizi-static-site",
+  "version": "1.0.0",
+  "description": "Static site migration from WordPress for Sebana Servizi",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "node build/index.js",
+    "add-sri": "node build/addSRIHashes.js",
+    "add-sri:dry-run": "node build/addSRIHashes.js --dry-run",
+    "validate": "node build/runAllValidations.js",
+    "validate:html": "node build/validateHTML.js",
+    "validate:responsive": "node build/validateResponsive.js",
+    "test": "npm run validate"
+  },
+  "keywords": [
+    "static-site",
+    "wordpress-migration",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "sharp": "^0.33.0",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.26.0",
+    "clean-css": "^5.3.3"
+  }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Pagina Non Trovata - Sebana Servizi</title>
+  <meta name="description" content="La pagina che stai cercando non esiste o è stata spostata.">
+  
+  <!-- Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <style>
+    .error-page {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .error-content {
+      max-width: 600px;
+    }
+    
+    .error-code {
+      font-size: 8rem;
+      font-weight: bold;
+      color: #e74c3c;
+      line-height: 1;
+      margin: 0;
+    }
+    
+    .error-title {
+      font-size: 2rem;
+      margin: 1rem 0;
+      color: #2c3e50;
+    }
+    
+    .error-message {
+      font-size: 1.125rem;
+      color: #7f8c8d;
+      margin: 1rem 0 2rem;
+      line-height: 1.6;
+    }
+    
+    .error-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-primary {
+      background-color: #3498db;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background-color: #2980b9;
+    }
+    
+    .btn-secondary {
+      background-color: #95a5a6;
+      color: white;
+    }
+    
+    .btn-secondary:hover {
+      background-color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="/">
+            <img src="images/logo.png" alt="Sebana Servizi Logo" width="150" height="50">
+          </a>
+        </div>
+        
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+          <ul>
+            <li><a href="/#hero">Home</a></li>
+            <li><a href="/#services">Servizi</a></li>
+            <li><a href="/#values">I Nostri Valori</a></li>
+            <li><a href="/#team">Team</a></li>
+            <li><a href="/#contact-form">Contattaci</a></li>
+          </ul>
+        </nav>
+        
+        <div class="header-contact">
+          <a href="tel:+390212345678" class="contact-link phone">+39 02 1234 5678</a>
+          <a href="mailto:info@sebanaservizi.it" class="contact-link email">info@sebanaservizi.it</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="error-page">
+      <div class="error-content">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-title">Pagina Non Trovata</h2>
+        <p class="error-message">
+          Ci dispiace, la pagina che stai cercando non esiste o è stata spostata.
+          Torna alla home page o contattaci per assistenza.
+        </p>
+        <div class="error-actions">
+          <a href="/" class="btn btn-primary">Torna alla Home</a>
+          <a href="/#contact-form" class="btn btn-secondary">Contattaci</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section company-info">
+          <h3>Sebana Servizi S.r.l.</h3>
+          <p class="address">Via Roma 123, 20100 Milano (MI)</p>
+          <p class="phone"><a href="tel:+390212345678">+39 02 1234 5678</a></p>
+          <p class="email"><a href="mailto:info@sebanaservizi.it">info@sebanaservizi.it</a></p>
+          <p class="vat">P.IVA: 12345678901</p>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h3>Link Utili</h3>
+          <ul>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/cookie">Cookie Policy</a></li>
+            <li><a href="/terms">Termini e Condizioni</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section social-media">
+          <h3>Seguici</h3>
+          <div class="social-links">
+            <a href="https://linkedin.com/company/sebanaservizi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <img src="images/icons/linkedin.svg" alt="LinkedIn" width="32" height="32">
+            </a>
+            <a href="https://facebook.com/sebanaservizi" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <img src="images/icons/facebook.svg" alt="Facebook" width="32" height="32">
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Sebana Servizi. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

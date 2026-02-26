@@ -1,0 +1,11 @@
+# Redirects for clean URLs
+/servizi              /servizi.html           200
+/contatti             /contatti.html          200
+/newsletter           /newsletter.html        200
+
+# Old WordPress URLs redirects
+/services/            /servizi                301
+/contact/             /contatti               301
+/gestione-della-sicurezza-antincendio/  /servizi  301
+/controllo-dellacqua/                   /servizi  301
+/adempimenti-sulla-privacy/             /servizi  301

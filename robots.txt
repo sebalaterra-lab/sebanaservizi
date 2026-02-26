@@ -1,0 +1,8 @@
+# robots.txt for Sebana Servizi
+# Allow all crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.sebanaservizi.it/sitemap.xml
