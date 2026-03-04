@@ -38,3 +38,15 @@ coverage/
 
 # Build tools
 .eslintcache
+
+.claude
+.claude/*
+
+.agents
+.agents/*
+
+CLAUDE.md
+AGENTS.md
+
+.kiro/
+.kiro/*

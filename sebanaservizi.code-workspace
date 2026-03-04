@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/www.sebanaservizi.it-23"
+		}
+	],
+	"settings": {
+		"kiroAgent.configureMCP": "Disabled",
+		"liveServer.settings.multiRootWorkspaceName": "sebanaservizi"
+	}
+}
